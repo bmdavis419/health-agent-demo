@@ -177,7 +177,7 @@ const agentHandlerRunAgent = async (
       providerOptions: {
         openai: {
           parallelToolCalls: true,
-          reasoningEffort: "high",
+          reasoningEffort: "low",
           reasoningSummary: "auto",
         },
       },
@@ -220,11 +220,11 @@ const agentHandlerGetStream = async (
 
 const agentInputSchema = z.discriminatedUnion("type", [
   z.object({
-    type: z.literal("run"),
+    type: z.literal("run_agent"),
     user_id: z.string(),
   }),
   z.object({
-    type: z.literal("get"),
+    type: z.literal("get_stream"),
     stream_id: z.string(),
   }),
 ]);
@@ -236,14 +236,14 @@ export const welcome = (): AgentWelcomeResult => {
     prompts: [
       {
         data: JSON.stringify({
-          type: "run",
+          type: "run_agent",
           user_id: "brotherman_bill",
         }),
         contentType: "application/json",
       },
       {
         data: JSON.stringify({
-          type: "get",
+          type: "get_stream",
           stream_id: "your-stream-id",
         }),
         contentType: "application/json",
@@ -279,7 +279,7 @@ export default async function Agent(
 
   const input = inputJsonResult.value;
 
-  if (input.type === "run") {
+  if (input.type === "run_agent") {
     return agentHandlerRunAgent(input, resp, ctx);
   } else {
     return agentHandlerGetStream(input, resp, ctx);
