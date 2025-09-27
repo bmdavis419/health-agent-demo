@@ -6,6 +6,7 @@
 </script>
 
 <svelte:head>
+	<title>Health Agent App</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 

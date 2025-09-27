@@ -197,8 +197,8 @@ const agentHandlerRunAgent = async (
   });
 
   return resp.json({
-    streamId: fullStreamBucket.id,
-    streamUrl: fullStreamBucket.url,
+    fullStreamId: fullStreamBucket.id,
+    fullStreamUrl: fullStreamBucket.url,
     textStreamId: textStreamBucket.id,
     textStreamUrl: textStreamBucket.url,
   });
