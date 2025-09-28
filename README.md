@@ -7,4 +7,4 @@ There are two projects here:
 - health-agent: an agentuity agent
 - health-app: a sveltekit project which will call and use the agent
 
-I want to keep evolving this project over time as things get added, will add feedback to `FEEDBACK.md`
+I want to keep evolving this project over time as things get added. Will sent feedback in the discord.
