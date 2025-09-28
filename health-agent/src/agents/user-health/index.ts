@@ -7,7 +7,7 @@ import type {
 import z from "zod";
 import { stepCountIs, streamText, tool } from "ai";
 import { createOpenAI } from "@ai-sdk/openai";
-import { err, ok, ResultAsync } from "neverthrow";
+import { err, ok, Result, ResultAsync } from "neverthrow";
 
 const openai = createOpenAI();
 
@@ -171,7 +171,10 @@ const agentHandlerRunAgent = async (
         ctx.logger.error("Error generating text", { error });
       },
       onFinish: (completion) => {
-        ctx.logger.info("Text generation finished", completion.text);
+        const totalTokens = completion.usage.totalTokens;
+        ctx.logger.info(
+          "Text generation finished, total tokens: " + totalTokens
+        );
       },
       stopWhen: stepCountIs(10),
       providerOptions: {
@@ -190,8 +193,32 @@ const agentHandlerRunAgent = async (
       ],
     });
 
+    const betterAppendFullStream = async () => {
+      const writer = await fullStreamBucket.getWriter();
+      for await (const chunk of fullStream) {
+        const chunkStr = Result.fromThrowable(
+          () => JSON.stringify(chunk),
+          (e) => new Error(`Failed to stringify chunk: ${e}`)
+        )();
+
+        if (chunkStr.isErr()) {
+          ctx.logger.error("Failed to stringify chunk", {
+            error: chunkStr.error,
+          });
+          continue;
+        }
+
+        const sseChunk = `data: ${chunkStr.value}\n\n`;
+
+        await writer.write(sseChunk);
+      }
+      // do I need both of these?
+      await writer.close();
+      await fullStreamBucket.close();
+    };
+
     await Promise.all([
-      fullStream.pipeTo(fullStreamBucket),
+      betterAppendFullStream(),
       textStream.pipeTo(textStreamBucket),
     ]);
   });
