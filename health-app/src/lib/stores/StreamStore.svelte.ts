@@ -4,6 +4,7 @@ import { marked } from 'marked';
 import { startHealthSummaryAgent } from '$lib/agent.remote';
 import { watch } from 'runed';
 import { Result } from 'neverthrow';
+import { onMount } from 'svelte';
 
 const streamChunkSchema = z.object({
 	type: z.enum([
@@ -85,9 +86,8 @@ export class StreamStore {
 	private textStreamUrl = $derived(this.searchParams.textStreamUrl);
 	private fullStreamUrl = $derived(this.searchParams.fullStreamUrl);
 	isStartingAgent = $state(false);
-	private isConsumingFullStream = $state(false);
-	private isConsumingTextStream = $state(false);
-	isConsumingStream = $derived(this.isConsumingFullStream || this.isConsumingTextStream);
+	isConsumingFullStream = $state(false);
+	isConsumingTextStream = $state(false);
 	userId = $state('');
 	allStreamEntries = $state<StreamEntry[]>([]);
 	private textStreamRawContent = $state<string>('');
@@ -120,6 +120,14 @@ export class StreamStore {
 		});
 
 		this.isStartingAgent = false;
+
+		this.isConsumingFullStream = true;
+		this.isConsumingTextStream = true;
+
+		await Promise.all([
+			this.consumeTextStream(result.textStreamUrl),
+			this.consumeFullStream(result.fullStreamUrl)
+		]);
 	}
 
 	private async consumeTextStream(url: string) {
@@ -144,7 +152,7 @@ export class StreamStore {
 		} catch (error) {
 			console.error('Error consuming stream:', error);
 		} finally {
-			this.isConsumingStream = false;
+			this.isConsumingTextStream = false;
 		}
 	}
 
@@ -344,30 +352,23 @@ export class StreamStore {
 					this.processStreamMessage(message);
 				}
 			}
+
+			this.allStreamEntries.pop();
 		} catch (error) {
 			console.error('Error consuming stream:', error);
 		} finally {
-			this.isConsumingStream = false;
+			this.isConsumingFullStream = false;
 		}
 	}
 
 	constructor() {
-		$inspect(this.allStreamEntries);
-		watch(
-			() => this.textStreamUrl,
-			(textStreamUrl) => {
-				if (textStreamUrl) {
-					this.consumeTextStream(textStreamUrl);
-				}
+		onMount(() => {
+			if (this.textStreamUrl) {
+				this.consumeTextStream(this.textStreamUrl);
 			}
-		);
-		watch(
-			() => this.fullStreamUrl,
-			(fullStreamUrl) => {
-				if (fullStreamUrl) {
-					this.consumeFullStream(fullStreamUrl);
-				}
+			if (this.fullStreamUrl) {
+				this.consumeFullStream(this.fullStreamUrl);
 			}
-		);
+		});
 	}
 }
