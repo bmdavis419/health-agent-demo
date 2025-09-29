@@ -20,7 +20,7 @@
 	}
 </script>
 
-<main class="flex h-screen flex-col bg-neutral-950">
+<main class="flex h-screen flex-col items-center justify-center bg-neutral-950">
 	<div class="flex-shrink-0 p-8">
 		<div class="text-center">
 			<h1 class="mb-2 text-3xl font-bold text-neutral-100">Health Agent</h1>
