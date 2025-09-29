@@ -46,6 +46,7 @@ export const startHealthSummaryAgent = command(
 				})
 				.then(async (response) => {
 					const data = await response.json();
+					// should actually validate the output but it's a demo man I don't fucking care
 					return data as StartAgentOutput;
 				}),
 			(error) => {
