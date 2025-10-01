@@ -1,0 +1,3347 @@
+[
+    {
+        "type": "start"
+    },
+    {
+        "type": "start-step"
+    },
+    {
+        "type": "reasoning-start",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "I"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " need"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " to"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " call"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " several"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " tools"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " to"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " gather"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " the"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " user's"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " weight"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " height"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " body"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " fat"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " age"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " profile"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " and"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " today's"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " date"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " so"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " I'll"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " utilize"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " multi"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "_tool"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "_use"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ".parallel"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " to"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " fetch"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " all"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " this"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " information"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " at"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " once"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " providing"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " the"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " user"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "_id"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " as"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " a"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " parameter"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " After"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " gathering"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " the"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " data"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " I'll"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " create"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " a"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " markdown"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " summary"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " To"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " compute"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " the"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " BMI"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " I'll"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " use"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " the"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " formula"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ":"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " weight"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " ("
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "kg"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ")"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " divided"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " by"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " height"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " ("
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "m"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ")"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " squared"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " I"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " just"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " need"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " to"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " make"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " sure"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " everything"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " is"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " called"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " correctly"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " and"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " the"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " outputs"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " are"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": " available"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-end",
+        "id": "rs_013fe4f6dfe442f50068dd8c7e32e88193831f7fcb35ffc4d2:0"
+    },
+    {
+        "type": "tool-input-start",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "toolName": "getUserWeightTool"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "{"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "\"user"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "_id"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "\":"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "\"bro"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "ther"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "man"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "_bill"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J",
+        "delta": "\"}"
+    },
+    {
+        "type": "tool-input-end",
+        "id": "call_GjgXMyFnOZ5rYk7rvpxWic7J"
+    },
+    {
+        "type": "tool-call",
+        "toolName": "getUserWeightTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "toolCallId": "call_GjgXMyFnOZ5rYk7rvpxWic7J"
+    },
+    {
+        "type": "tool-result",
+        "toolName": "getUserWeightTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "output": "User brotherman_bill's weight is 193 pounds",
+        "toolCallId": "call_GjgXMyFnOZ5rYk7rvpxWic7J"
+    },
+    {
+        "type": "tool-input-start",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "toolName": "getUserHeightTool"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "{"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "\"user"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "_id"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "\":"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "\"bro"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "ther"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "man"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "_bill"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k",
+        "delta": "\"}"
+    },
+    {
+        "type": "tool-input-end",
+        "id": "call_9zxqqjIvrrqS5r6Apz21Ww7k"
+    },
+    {
+        "type": "tool-call",
+        "toolName": "getUserHeightTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "toolCallId": "call_9zxqqjIvrrqS5r6Apz21Ww7k"
+    },
+    {
+        "type": "tool-result",
+        "toolName": "getUserHeightTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "output": "User brotherman_bill's height is 5 feet 10 inches",
+        "toolCallId": "call_9zxqqjIvrrqS5r6Apz21Ww7k"
+    },
+    {
+        "type": "tool-input-start",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "toolName": "getUserBodyFatPercentageTool"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "{"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "\"user"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "_id"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "\":"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "\"bro"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "ther"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "man"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "_bill"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP",
+        "delta": "\"}"
+    },
+    {
+        "type": "tool-input-end",
+        "id": "call_EaoBGFWtZHWSvKS7aoZNrKIP"
+    },
+    {
+        "type": "tool-call",
+        "toolName": "getUserBodyFatPercentageTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "toolCallId": "call_EaoBGFWtZHWSvKS7aoZNrKIP"
+    },
+    {
+        "type": "tool-result",
+        "toolName": "getUserBodyFatPercentageTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "output": "User brotherman_bill's body fat percentage is 20%",
+        "toolCallId": "call_EaoBGFWtZHWSvKS7aoZNrKIP"
+    },
+    {
+        "type": "tool-input-start",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "toolName": "getUserAgeTool"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "{"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "\"user"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "_id"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "\":"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "\"bro"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "ther"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "man"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "_bill"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH",
+        "delta": "\"}"
+    },
+    {
+        "type": "tool-input-end",
+        "id": "call_uNIIAdvfAWaIGzahdnfk2PsH"
+    },
+    {
+        "type": "tool-call",
+        "toolName": "getUserAgeTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "toolCallId": "call_uNIIAdvfAWaIGzahdnfk2PsH"
+    },
+    {
+        "type": "tool-result",
+        "toolName": "getUserAgeTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "output": "User brotherman_bill's age is 23",
+        "toolCallId": "call_uNIIAdvfAWaIGzahdnfk2PsH"
+    },
+    {
+        "type": "tool-input-start",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "toolName": "getUserProfileTool"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "{"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "\"user"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "_id"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "\":"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "\"bro"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "ther"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "man"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "_bill"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs",
+        "delta": "\"}"
+    },
+    {
+        "type": "tool-input-end",
+        "id": "call_GKDYQ1dgeZAPjE5cbpvgLuZs"
+    },
+    {
+        "type": "tool-call",
+        "toolName": "getUserProfileTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "toolCallId": "call_GKDYQ1dgeZAPjE5cbpvgLuZs"
+    },
+    {
+        "type": "tool-result",
+        "toolName": "getUserProfileTool",
+        "input": {
+            "user_id": "brotherman_bill"
+        },
+        "output": {
+            "user_id": "brotherman_bill",
+            "name": "Ben Davis",
+            "gender": "male",
+            "created_at": "2025-01-01",
+            "updated_at": "2025-01-01"
+        },
+        "toolCallId": "call_GKDYQ1dgeZAPjE5cbpvgLuZs"
+    },
+    {
+        "type": "tool-input-start",
+        "id": "call_oJT84A6hBBFQF0gmP7Ue27wF",
+        "toolName": "getTodayDateTool"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_oJT84A6hBBFQF0gmP7Ue27wF",
+        "delta": "{"
+    },
+    {
+        "type": "tool-input-delta",
+        "id": "call_oJT84A6hBBFQF0gmP7Ue27wF",
+        "delta": "}"
+    },
+    {
+        "type": "tool-input-end",
+        "id": "call_oJT84A6hBBFQF0gmP7Ue27wF"
+    },
+    {
+        "type": "tool-call",
+        "toolName": "getTodayDateTool",
+        "input": {},
+        "toolCallId": "call_oJT84A6hBBFQF0gmP7Ue27wF"
+    },
+    {
+        "type": "tool-result",
+        "toolName": "getTodayDateTool",
+        "input": {},
+        "output": "Today's date is 2025-10-01",
+        "toolCallId": "call_oJT84A6hBBFQF0gmP7Ue27wF"
+    },
+    {
+        "type": "finish-step"
+    },
+    {
+        "type": "start-step"
+    },
+    {
+        "type": "reasoning-start",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "**Calcul"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "ating"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " BMI"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " and"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " recommendations"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "**\n\nI"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "’m"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " calculating"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " BMI"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " now"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " The"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " weight"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " is"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 193"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " pounds"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " which"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " converts"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " to"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " about"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 87"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "542"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " kilograms"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " The"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " height"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " of"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 5"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "'"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "10"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "\""
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " is"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 70"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " inches"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " or"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 1"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "778"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " meters"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " Hence"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " the"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " BMI"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " calculation"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " is"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 87"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "542"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " divided"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " by"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 1"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "778"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " squared"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " giving"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " approximately"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 27"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "7"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " Considering"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " body"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " fat"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " at"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 20"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "%"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " and"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " age"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " 23"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " I"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "’ll"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " summarize"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " key"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " concerns"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " and"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " recommendations"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " conc"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "is"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "ely"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": ","
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " following"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " a"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " markdown"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " template"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "."
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " Let"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "’s"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " keep"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " this"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " focused"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " and"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": " clear"
+    },
+    {
+        "type": "reasoning-delta",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0",
+        "text": "!"
+    },
+    {
+        "type": "reasoning-end",
+        "id": "rs_013fe4f6dfe442f50068dd8c84486c8193a3d210c3c91f30f4:0"
+    },
+    {
+        "type": "text-start",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "##"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Ben"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Davis"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Health"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Summary"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "202"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "5"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "10"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "01"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " weight"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ":"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "193"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " lb"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " height"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ":"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "5"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ft"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "10"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " in"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " bmi"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ":"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "27"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "."
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "7"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " fat"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " percentage"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ":"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "20"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "%\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " age"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ":"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "23"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " gender"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ":"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " male"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "###"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " summary"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "Ben"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " is"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "23"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-year"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-old"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " male"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " with"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " BMI"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " about"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "27"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "."
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "7"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ("
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "over"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "weight"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " range"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ")"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " fat"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " percentage"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "20"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "%."
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Overall"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " composition"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " is"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " near"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " the"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " upper"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " end"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " healthy"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "/"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "ath"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "letic"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " range"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " for"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " young"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " male"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ";"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " BMI"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " indicates"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " excess"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " weight"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " relative"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " to"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " height"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " but"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " fat"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " suggests"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " moderate"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " level"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " adip"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "osity"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " rather"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " than"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " obesity"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "###"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " key"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " areas"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " concern"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Elevated"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " BMI"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ("
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "27"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "."
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "7"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ")"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " —"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " increased"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " risk"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " for"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " cardi"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "omet"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "abolic"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " conditions"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " if"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " sustained"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " or"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " combined"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " with"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " other"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " risk"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " factors"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " fat"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " at"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "20"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "%"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " —"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " acceptable"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " but"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " could"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " be"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " lowered"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " for"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " improved"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " metabolic"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " cardiovascular"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " health"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " performance"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Young"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " age"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " —"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " opportunity"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " for"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " effective"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " lifestyle"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " changes"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " now"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " to"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " prevent"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " long"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-term"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " risk"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "###"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " key"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " recommendations"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "\n\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Aim"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " for"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " gradual"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " weight"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " reduction"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "5"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "–"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "10"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "%"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " current"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " weight"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " over"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "3"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "–"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "6"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " months"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " through"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " modest"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " calorie"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " deficit"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ("
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "e"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".g"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".,"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "300"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "–"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "500"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " kcal"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "/day"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ")"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " to"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " reduce"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " BMI"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " fat"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Increase"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " weekly"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " moderate"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-to"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-v"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "ig"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "orous"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " aerobic"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " exercise"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " to"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ≥"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "150"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "–"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "300"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " minutes"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " add"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "2"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "–"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "3"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " sessions"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " of"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " resistance"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " training"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " to"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " preserve"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "/"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "raise"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " lean"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " mass"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " lower"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " fat"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Focus"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " on"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " protein"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-forward"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " diet"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ("
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "rough"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "ly"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " "
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "1"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "."
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "4"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "–"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "2"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "."
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "0"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " g"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "/kg"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " weight"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ")"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " with"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " whole"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " foods"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ","
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " vegetables"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ","
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " whole"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " grains"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ","
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " reduced"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " added"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " sugars"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " refined"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " carbs"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " Monitor"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " progress"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " with"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " weight"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ","
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " body"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " composition"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ("
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "if"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " possible"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "),"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " simple"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " labs"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " ("
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "lip"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "ids"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ","
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " fasting"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " glucose"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "/H"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "b"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "A"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "1"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "c"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ")"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " if"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " there"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " are"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " other"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " risk"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " factors"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " or"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " family"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " history"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "-"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " If"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " needed"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ","
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " consult"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " a"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " primary"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " care"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " provider"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " or"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " registered"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " diet"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": "itian"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " for"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " personalized"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " targets"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " and"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " to"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " rule"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " out"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " underlying"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": " conditions"
+    },
+    {
+        "type": "text-delta",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e",
+        "text": ".\n"
+    },
+    {
+        "type": "text-end",
+        "id": "msg_013fe4f6dfe442f50068dd8c8733b0819398a21870f471d34e"
+    },
+    {
+        "type": "finish-step"
+    },
+    {
+        "type": "finish"
+    }
+]

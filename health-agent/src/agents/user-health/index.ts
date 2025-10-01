@@ -127,6 +127,7 @@ const agentHandlerRunAgent = async (
     ResultAsync.fromPromise(
       ctx.stream.create("health-demo-text-stream", {
         contentType: "text/plain",
+        compress: true,
         metadata: {
           user_id,
         },
@@ -136,6 +137,7 @@ const agentHandlerRunAgent = async (
     ResultAsync.fromPromise(
       ctx.stream.create("health-demo-full-stream", {
         contentType: "text/plain",
+        compress: true,
         metadata: {
           user_id,
         },

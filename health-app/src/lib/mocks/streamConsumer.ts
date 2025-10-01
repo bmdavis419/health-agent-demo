@@ -1,15 +1,15 @@
-type Stream<Chunk> = {
+type MockStream<Chunk> = {
 	__chunkType: Chunk;
 	// all the other stuff u would need idk that's ur problem
 };
 
-type OnCompleteCallback = () => void;
-type OnErrorCallback = (error: Error) => void;
-type OnChunkCallback<Chunk> = (chunk: Chunk) => void;
-type OnStartCallback = () => void;
+type MockOnCompleteCallback = () => void;
+type MockOnErrorCallback = (error: Error) => void;
+type MockOnChunkCallback<Chunk> = (chunk: Chunk) => void;
+type MockOnStartCallback = () => void;
 
 type MockStreamConsumer<Chunk> = (
-	stream: Stream<Chunk>,
+	stream: MockStream<Chunk>,
 	streamId: string,
 	args: {
 		onComplete: OnCompleteCallback;
