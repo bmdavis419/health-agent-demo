@@ -27,7 +27,6 @@
 
 	const streamConsumer = createStreamConsumer(stream, {
 		onChunk: (chunk) => {
-			console.log('FULL STREAM CHUNK', chunk);
 			allTheChunks.push(chunk);
 		},
 		onComplete: (data) => {
