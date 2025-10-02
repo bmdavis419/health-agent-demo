@@ -140,10 +140,8 @@
 </script>
 
 <div class="flex max-h-[600px] flex-col py-6">
-	<h2 class="mb-3 flex-shrink-0 text-lg font-semibold text-neutral-200">Full Stream</h2>
-	<div
-		class="flex-1 overflow-y-auto rounded-lg border border-neutral-700 bg-neutral-900 p-6 shadow-lg"
-	>
+	<h2 class="mb-3 flex-shrink-0 px-8 text-lg font-semibold text-neutral-200">Full Stream</h2>
+	<div class="flex-1 overflow-y-auto bg-neutral-900 p-6 shadow-lg">
 		{#if fullStreamEntries.length > 0}
 			<div class="space-y-4">
 				{#each fullStreamEntries as entry}

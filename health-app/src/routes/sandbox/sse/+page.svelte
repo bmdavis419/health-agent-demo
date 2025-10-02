@@ -15,15 +15,13 @@
 	const searchParams = useSearchParams(streamPageSearchSchema);
 
 	const streamUrl = $derived(searchParams.streamUrl);
-
 	let isStreaming = $state(false);
 	let streamStatus = $state('Ready');
+	let allTheChunks = $state<BetterStreamChunk[]>([]);
 
 	const stream = createSseStream({
 		chunkSchema: betterStreamChunkSchema
 	});
-
-	let allTheChunks = $state<BetterStreamChunk[]>([]);
 
 	const streamConsumer = createStreamConsumer(stream, {
 		onChunk: (chunk) => {
@@ -91,44 +89,52 @@
 	}
 </script>
 
-<main class="flex h-screen flex-col items-center bg-neutral-950 p-8">
-	<div class="w-1/2 flex-1">
-		<div class="text-center">
-			<h1 class="mb-2 text-3xl font-bold text-neutral-100">SSE Stream Test</h1>
+<main class="h-screen bg-neutral-950 p-4 md:p-8">
+	<div class="mx-auto h-full max-w-7xl">
+		<div class="mb-6 text-center">
+			<h1 class="mb-2 text-2xl font-bold text-neutral-100 md:text-3xl">SSE Stream Test</h1>
 			<p class="text-sm text-neutral-400">Test the SSE stream consumer functionality</p>
 		</div>
 
-		<div class="mt-8 rounded-lg border border-neutral-700 bg-neutral-900 p-6 shadow-lg">
-			<h2 class="mb-4 text-xl font-semibold text-neutral-200">Controls</h2>
-			<div class="mb-4 flex gap-4">
-				<button
-					class="rounded-lg bg-primary px-4 py-2 text-white transition-colors duration-200 hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-50"
-					disabled={isStreaming}
-					onclick={startStream}
-				>
-					Start Stream
-				</button>
-				<button
-					class="rounded-lg bg-red-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-50"
-					disabled={!isStreaming}
-					onclick={stopStream}
-				>
-					Stop Stream
-				</button>
-				<button
-					class="rounded-lg bg-neutral-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-50"
-					disabled={isStreaming}
-					onclick={clearStream}
-				>
-					Clear Stream
-				</button>
+		<div class="grid h-[calc(100%-6rem)] grid-cols-1 gap-6 md:grid-cols-2">
+			<!-- Controls Column -->
+			<div
+				class="flex flex-col overflow-hidden rounded-lg border border-neutral-700 bg-neutral-900 p-6 shadow-lg"
+			>
+				<h2 class="mb-6 text-lg font-semibold text-neutral-200 md:text-xl">Controls</h2>
+				<div class="mb-6 flex flex-wrap gap-3 md:gap-4">
+					<button
+						class="flex-1 rounded-lg bg-primary px-3 py-2 text-sm text-white transition-colors duration-200 hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-50 md:flex-none md:px-4"
+						disabled={isStreaming}
+						onclick={startStream}
+					>
+						Start Stream
+					</button>
+					<button
+						class="flex-1 rounded-lg bg-red-600 px-3 py-2 text-sm text-white transition-colors duration-200 hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-50 md:flex-none md:px-4"
+						disabled={!isStreaming}
+						onclick={stopStream}
+					>
+						Stop Stream
+					</button>
+					<button
+						class="flex-1 rounded-lg bg-neutral-600 px-3 py-2 text-sm text-white transition-colors duration-200 hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-50 md:flex-none md:px-4"
+						disabled={isStreaming}
+						onclick={clearStream}
+					>
+						Clear Stream
+					</button>
+				</div>
+				<div class="text-sm text-neutral-400">
+					<strong class="text-neutral-200">Status:</strong>
+					{streamStatus}
+				</div>
 			</div>
-			<div class="text-sm text-neutral-400">
-				<strong class="text-neutral-200">Status:</strong>
-				{streamStatus}
+
+			<!-- Stream View Column -->
+			<div class="overflow-hidden rounded-lg border border-neutral-700 bg-neutral-900 shadow-lg">
+				<FullStreamView fullStreamChunks={allTheChunks} />
 			</div>
 		</div>
-
-		<FullStreamView fullStreamChunks={allTheChunks} />
 	</div>
 </main>

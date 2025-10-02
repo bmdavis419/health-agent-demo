@@ -22,11 +22,12 @@ class StreamError extends Error {
 	}
 }
 
-type OnCompleteCallback = (data: {
+type OnCompleteCallback<Chunk> = (data: {
 	totalChunks: number;
 	totalBytes: number;
 	duration: number;
 	didFatalError: boolean;
+	allChunks: Chunk[];
 }) => void | Promise<void>;
 type OnErrorCallback = (error: StreamError) => void | Promise<void>;
 type OnChunkCallback<Chunk> = (chunk: Chunk, index: number) => void | Promise<void>;
@@ -34,19 +35,20 @@ type OnStartCallback = () => void | Promise<void>;
 
 type CreateStreamConsumer = <Chunk>(
 	stream: Stream<Chunk>,
-	args: {
-		onComplete: OnCompleteCallback;
-		onError: OnErrorCallback;
-		onChunk: OnChunkCallback<Chunk>;
-		onStart: OnStartCallback;
+	args?: {
+		onComplete?: OnCompleteCallback<Chunk>;
+		onError?: OnErrorCallback;
+		onChunk?: OnChunkCallback<Chunk>;
+		onStart?: OnStartCallback;
+		collectChunks?: boolean;
 	}
 ) => {
 	start: (url: string) => void;
 	stop: () => void;
 };
 
-const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
-	const { onComplete, onError, onChunk, onStart } = args;
+const createStreamConsumer: CreateStreamConsumer = (stream, args = {}) => {
+	const { onComplete, onError, onChunk, onStart, collectChunks = false } = args;
 	const controller = new AbortController();
 	const signal = controller.signal;
 	const { chunkSchema, streamChunkType } = stream;
@@ -54,18 +56,17 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 	const internalRunStream = async (url: string) => {
 		let totalChunks = 0;
 		let totalBytes = 0;
-		let index = 0;
 		const startTime = Date.now();
+		const allChunks: any[] = [];
 
 		const handleFinish = async (didFatalError: boolean) => {
-			await Promise.resolve(
-				onComplete({
-					totalChunks,
-					totalBytes,
-					duration: Date.now() - startTime,
-					didFatalError
-				})
-			);
+			await onComplete?.({
+				totalChunks,
+				totalBytes,
+				duration: Date.now() - startTime,
+				didFatalError,
+				allChunks
+			});
 		};
 
 		const response = await ResultAsync.fromPromise(fetch(url, { signal }), (error) => {
@@ -76,14 +77,14 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 		});
 
 		if (response.isErr()) {
-			await Promise.resolve(onError(response.error));
+			await onError?.(response.error);
 			await handleFinish(true);
 			return;
 		}
 
 		const reader = response.value.body?.getReader();
 		if (!reader) {
-			await Promise.resolve(onError(new StreamError('Failed to get reader', true)));
+			await onError?.(new StreamError('Failed to get reader', true));
 			await handleFinish(true);
 			return;
 		}
@@ -93,7 +94,12 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 		// TEXT STREAM IMPLEMENTATION
 		if (streamChunkType === 'text') {
 			let done = false;
-			while (!done && !signal.aborted) {
+			while (!done) {
+				if (signal.aborted) {
+					await handleFinish(false);
+					return;
+				}
+
 				const readResult = await ResultAsync.fromPromise(reader.read(), (error) => {
 					return new StreamError(
 						`Failed to read stream: ${error instanceof Error ? error.message : String(error)}`,
@@ -102,7 +108,7 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 				});
 
 				if (readResult.isErr()) {
-					await Promise.resolve(onError(readResult.error));
+					await onError?.(readResult.error);
 					done = true;
 					continue;
 				}
@@ -112,38 +118,23 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 
 				if (!value) continue;
 
-				const chunkResult = Result.fromThrowable(
-					() => decoder.decode(value, { stream: !done }),
-					(error) => {
-						return new StreamError(
-							`Failed to decode stream chunk: ${error instanceof Error ? error.message : String(error)}`,
-							false
-						);
-					}
-				)();
-
-				if (chunkResult.isErr()) {
-					await Promise.resolve(onError(chunkResult.error));
-					continue;
-				}
-
-				const validatedChunkResult = chunkSchema.safeParse(chunkResult.value);
+				const decoded = decoder.decode(value, { stream: !done });
+				const validatedChunkResult = chunkSchema.safeParse(decoded);
 
 				if (!validatedChunkResult.success) {
-					await Promise.resolve(
-						onError(
-							new StreamError(
-								`Failed to validate stream chunk: ${validatedChunkResult.error.message}`,
-								false
-							)
+					await onError?.(
+						new StreamError(
+							`Failed to validate stream chunk: ${validatedChunkResult.error.message}`,
+							false
 						)
 					);
 					continue;
 				}
 
-				// this will have type safety because of the types from the schema
-				await Promise.resolve(onChunk(validatedChunkResult.data as any, index));
-				index += 1;
+				await onChunk?.(validatedChunkResult.data as any, totalChunks);
+				if (collectChunks) {
+					allChunks.push(validatedChunkResult.data as any);
+				}
 				totalChunks += 1;
 				totalBytes += value.length;
 			}
@@ -154,7 +145,12 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 			let done = false;
 			let buffer = '';
 
-			while (!done && !signal.aborted) {
+			while (!done) {
+				if (signal.aborted) {
+					await handleFinish(false);
+					return;
+				}
+
 				const readResult = await ResultAsync.fromPromise(reader.read(), (error) => {
 					return new StreamError(
 						`Failed to read stream: ${error instanceof Error ? error.message : String(error)}`,
@@ -163,7 +159,7 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 				});
 
 				if (readResult.isErr()) {
-					await Promise.resolve(onError(readResult.error));
+					await onError?.(readResult.error);
 					done = true;
 					continue;
 				}
@@ -173,22 +169,9 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 
 				if (!value) continue;
 
-				const bufferResult = Result.fromThrowable(
-					() => decoder.decode(value, { stream: !done }),
-					(error) => {
-						return new StreamError(
-							`Failed to decode stream chunk: ${error instanceof Error ? error.message : String(error)}`,
-							false
-						);
-					}
-				)();
-
-				if (bufferResult.isErr()) {
-					await Promise.resolve(onError(bufferResult.error));
-					continue;
-				}
-
-				buffer += bufferResult.value;
+				totalBytes += value.length;
+				const decoded = decoder.decode(value, { stream: !done });
+				buffer += decoded;
 
 				const messages = buffer.split('\n\n');
 				buffer = messages.pop() || '';
@@ -207,22 +190,20 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 
 					const safeParseResult = chunkSchema.safeParse(parsed);
 					if (!safeParseResult.success) {
-						await Promise.resolve(
-							onError(
-								new StreamError(
-									`Failed to validate stream chunk: ${safeParseResult.error.message}`,
-									false
-								)
+						await onError?.(
+							new StreamError(
+								`Failed to validate stream chunk: ${safeParseResult.error.message}`,
+								false
 							)
 						);
 						continue;
 					}
 
-					// this will have type safety because of the types from the schema
-					await Promise.resolve(onChunk(safeParseResult.data as any, index));
-					index += 1;
+					await onChunk?.(safeParseResult.data as any, totalChunks);
+					if (collectChunks) {
+						allChunks.push(safeParseResult.data as any);
+					}
 					totalChunks += 1;
-					totalBytes += value.length;
 				}
 			}
 		}
@@ -233,7 +214,7 @@ const createStreamConsumer: CreateStreamConsumer = (stream, args) => {
 
 	return {
 		start: async (url: string) => {
-			await Promise.resolve(onStart());
+			await onStart?.();
 			internalRunStream(url);
 		},
 		stop: () => {
