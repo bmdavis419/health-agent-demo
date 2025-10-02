@@ -8,14 +8,16 @@
 	import { onMount } from 'svelte';
 
 	const streamPageSearchSchema = z.object({
-		streamUrl: z.string().default('')
+		textStreamUrl: z.string().default(''),
+		fullStreamUrl: z.string().default('')
 	});
 
 	const searchParams = useSearchParams(streamPageSearchSchema);
 
-	const streamUrl = $derived(searchParams.streamUrl);
+	const internalTextStreamUrl = $derived(searchParams.textStreamUrl);
+	const internalFullStreamUrl = $derived(searchParams.fullStreamUrl);
 
-	$inspect(streamUrl);
+	const searchParamsString = $derived(searchParams.toURLSearchParams().toString());
 
 	let testTextStreamContent = $state('');
 	const testTextStreamMarkdownContent = $derived(
@@ -65,16 +67,16 @@
 			return;
 		}
 
-		const { textStreamUrl } = startAgentResult.value;
+		const { textStreamUrl, fullStreamUrl } = startAgentResult.value;
 
-		searchParams.update({ streamUrl: textStreamUrl });
+		searchParams.update({ textStreamUrl, fullStreamUrl });
 
 		testTextStreamConsumer.start(textStreamUrl);
 	}
 
 	onMount(() => {
-		if (streamUrl) {
-			testTextStreamConsumer.start(streamUrl);
+		if (internalTextStreamUrl) {
+			testTextStreamConsumer.start(internalTextStreamUrl);
 		}
 	});
 
@@ -127,6 +129,14 @@
 					>
 						Clear Stream
 					</button>
+					{#if internalFullStreamUrl}
+						<a
+							class="flex-1 rounded-lg bg-neutral-600 px-3 py-2 text-sm text-white transition-colors duration-200 hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-50 md:flex-none md:px-4"
+							href={`/sandbox/sse?${searchParamsString}`}
+						>
+							See Full Stream
+						</a>
+					{/if}
 				</div>
 				<div class="text-sm text-neutral-400">
 					<strong class="text-neutral-200">Status:</strong>

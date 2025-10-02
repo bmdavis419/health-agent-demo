@@ -9,12 +9,17 @@
 	import { onMount } from 'svelte';
 
 	const streamPageSearchSchema = z.object({
-		streamUrl: z.string().default('')
+		textStreamUrl: z.string().default(''),
+		fullStreamUrl: z.string().default('')
 	});
 
 	const searchParams = useSearchParams(streamPageSearchSchema);
 
-	const streamUrl = $derived(searchParams.streamUrl);
+	const internalTextStreamUrl = $derived(searchParams.textStreamUrl);
+	const internalFullStreamUrl = $derived(searchParams.fullStreamUrl);
+
+	const searchParamsString = $derived(searchParams.toURLSearchParams().toString());
+
 	let isStreaming = $state(false);
 	let streamStatus = $state('Ready');
 	let allTheChunks = $state<BetterStreamChunk[]>([]);
@@ -62,16 +67,16 @@
 			return;
 		}
 
-		const { fullStreamUrl } = startAgentResult.value;
+		const { fullStreamUrl, textStreamUrl } = startAgentResult.value;
 
-		searchParams.update({ streamUrl: fullStreamUrl });
+		searchParams.update({ fullStreamUrl, textStreamUrl });
 
 		streamConsumer.start(fullStreamUrl);
 	}
 
 	onMount(() => {
-		if (streamUrl) {
-			streamConsumer.start(streamUrl);
+		if (internalFullStreamUrl) {
+			streamConsumer.start(internalFullStreamUrl);
 		}
 	});
 
@@ -124,6 +129,14 @@
 					>
 						Clear Stream
 					</button>
+					{#if internalFullStreamUrl}
+						<a
+							class="flex-1 rounded-lg bg-neutral-600 px-3 py-2 text-sm text-white transition-colors duration-200 hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-50 md:flex-none md:px-4"
+							href={`/sandbox/text?${searchParamsString}`}
+						>
+							See Text Stream
+						</a>
+					{/if}
 				</div>
 				<div class="text-sm text-neutral-400">
 					<strong class="text-neutral-200">Status:</strong>
