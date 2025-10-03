@@ -1,5 +1,5 @@
 import { command, getRequestEvent } from '$app/server';
-import { AGENTUITY_HEALTH_AGENT_ID, AGENTUITY_URL } from '$env/static/private';
+import { AGENTUITY_HEALTH_AGENT_URL, AGENTUITY_HEALTH_AGENT_TOKEN } from '$env/static/private';
 import { error } from '@sveltejs/kit';
 import { ResultAsync } from 'neverthrow';
 import z from 'zod';
@@ -40,9 +40,13 @@ export const startHealthSummaryAgent = command(
 
 		const response = await ResultAsync.fromPromise(
 			event
-				.fetch(`${AGENTUITY_URL}/${AGENTUITY_HEALTH_AGENT_ID}`, {
+				.fetch(`${AGENTUITY_HEALTH_AGENT_URL}`, {
 					method: 'POST',
-					body: JSON.stringify(input)
+					body: JSON.stringify(input),
+					headers: {
+						'Content-Type': 'application/json',
+						Authorization: `Bearer ${AGENTUITY_HEALTH_AGENT_TOKEN}`
+					}
 				})
 				.then(async (response) => {
 					const data = await response.json();

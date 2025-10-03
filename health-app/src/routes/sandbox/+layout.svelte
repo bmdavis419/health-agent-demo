@@ -2,7 +2,7 @@
 	let { children } = $props();
 </script>
 
-<div class="flex h-screen flex-col">
+<div class="flex h-screen w-full flex-col overflow-y-auto">
 	<nav class="">
 		<div class="flex gap-2 bg-neutral-900 p-2 shadow-lg">
 			<a
