@@ -1,4 +1,4 @@
-import { Result, ResultAsync } from 'neverthrow';
+import { ResultAsync } from 'neverthrow';
 import z from 'zod';
 
 type SseStream<Chunk> = {
